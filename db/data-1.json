@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "dependency": 1,
+    "duration": 5
+  },
+  {
+    "id": 2,
+    "dependency": 0,
+    "duration": 5
+  },
+  {
+    "id": 3,
+    "dependency": 0,
+    "duration": 5
+  },
+  {
+    "id": 4,
+    "dependency": 4,
+    "duration": 5
+  },
+  {
+    "id": 5,
+    "dependency": 4,
+    "duration": 5
+  }
+]
