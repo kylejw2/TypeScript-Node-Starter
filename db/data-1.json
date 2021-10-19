@@ -6,12 +6,12 @@
   },
   {
     "id": 2,
-    "dependency": 0,
+    "dependency": null,
     "duration": 5
   },
   {
     "id": 3,
-    "dependency": 0,
+    "dependency": null,
     "duration": 5
   },
   {
