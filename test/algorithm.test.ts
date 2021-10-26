@@ -15,14 +15,14 @@ describe("durationAlgorithm", () => {
 
   describe("data-2", () => {
     const data = [...data2];
-    xit("should throw an error if there is a circular dependency", () => {
+    it("should throw an error if there is a circular dependency", () => {
       expect(() => durationAlgorithm(data)).toThrow();
     });
   });
 
   describe("data-3", () => {
     const data = [...data3];
-    xit("should return 24 for the third dataset", () => {
+    it("should return 12 for the third dataset", () => {
       const result = durationAlgorithm(data);
 
       expect(result).toEqual(24);
@@ -31,16 +31,16 @@ describe("durationAlgorithm", () => {
 
   describe("data-4", () => {
     const data = [...data4];
-    xit("should return 24 for the fourth dataset", () => {
+    it("should return 24 for the fourth dataset", () => {
       const result = durationAlgorithm(data);
 
       expect(result).toEqual(24);
     });
   });
 
-  describe("data-4", () => {
+  describe("data-5", () => {
     const data = [...data5];
-    xit("should return 25 for the fifth dataset", () => {
+    it("should return 25 for the fifth dataset", () => {
       const result = durationAlgorithm(data);
 
       expect(result).toEqual(25);
